@@ -9,8 +9,8 @@ MAINTAINER Vitali Peil
 ENV PATH node_modules/.bin:$PATH
 
 # XML to JSON for optimal performance
-RUN ./xmltojson.py ./csl ./csl-json
-RUN ./xmltojson.py ./csl-locales ./csl-locales-json
+#RUN ./xmltojson.py ./csl ./csl-json
+#RUN ./xmltojson.py ./csl-locales ./csl-locales-json
 
 # Add source
 ADD . /src
