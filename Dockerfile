@@ -1,7 +1,7 @@
 # Docker image for citeproc-node app
 # Usage: $ docker run -d -p 8085:8085 -t {this image}
 
-FROM node:14.11.0-stretch-slim
+FROM node:18-bullseye-slim
 MAINTAINER LibreCat community <librecat-dev@lists.uni-bielefeld.de>
 
 # Install prerequisites (for installation only)
